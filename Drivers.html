@@ -28,192 +28,830 @@
     <!-- NAV BAR =============================== -->
 
     <nav
-    class="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-600"
-  >
-    <div
-      class="container flex flex-wrap items-center justify-between mx-auto"
+      class="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-600 sticky top-0 z-50"
+      image.png
     >
-      <a href="https://flowbite.com/" class="flex items-center">
-        <img
-          src="./img/download.jpg"
-          class="h-24 mr-3 sm:h-25"
-          alt="Flowbite Logo"
-        />
-        <span
-          class="Title self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-          >Formula 1 Latvija</span
-        >
-      </a>
-
-      <button
-        data-collapse-toggle="navbar-default"
-        type="button"
-        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-        aria-controls="navbar-default"
-        aria-expanded="false"
+      <div
+        class="container flex flex-wrap items-center justify-between mx-auto"
       >
-        <span class="sr-only">Open main menu</span>
-        <svg
-          class="w-6 h-6"
-          aria-hidden="true"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img
+            src="./img/download.jpg"
+            class="h-24 mr-3 sm:h-25"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="Title self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Formula 1 Latvija</span
+          >
+        </a>
+
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
         >
-          <path
-            fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul
-          class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-gray-300 dark:bg-gray-800 md:dark:bg-gray-700 dark:border-gray-700"
-        >
-          <li>
-            <a
-              href="./index.html"
-              class="block py-2 pl-3 pr-4 text-red-700 bg-red-700 rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white"
-              aria-current="page"
-              >Sākums</a
-            >
-          </li>
-          <li>
-            <a
-              href="./Drivers.html"
-              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Piloti</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >Pricing</a
-            >
-          </li>
-          <li>
-            <button
-              id="theme-toggle"
-              type="button"
-              class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-            >
-              <svg
-                id="theme-toggle-dark-icon"
-                class="hidden w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-gray-300 dark:bg-gray-800 md:dark:bg-gray-700 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="./index.html"
+                class="block py-2 pl-3 pr-4 text-red-700 bg-red-700 rounded md:bg-transparent md:text-red-700 md:p-0 dark:text-white"
+                aria-current="page"
+                >Sākums</a
               >
-                <path
-                  d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
-                ></path>
-              </svg>
-              <svg
-                id="theme-toggle-light-icon"
-                class="hidden w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+            </li>
+            <li>
+              <a
+                href="./Drivers.html"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Piloti</a
               >
-                <path
-                  d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
-          </li>
-        </ul>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <button
+                id="theme-toggle"
+                type="button"
+                class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                <svg
+                  id="theme-toggle-dark-icon"
+                  class="hidden w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                  ></path>
+                </svg>
+                <svg
+                  id="theme-toggle-light-icon"
+                  class="hidden w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
     <!-- VIDUS ============================ -->
-    <section class="bg-white dark:bg-gray-800">
-      <div
-        class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6"
-      >
-        <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+    <section class="bg-white dark:bg-gray-900">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2
             class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
           >
-            F1 piloti (2023.gada sezonā)
+            2023.gada Sezonas Formula 1 piloti
           </h2>
+          <p
+            class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400"
+          ></p>
         </div>
-        <div
-          class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-        >
-          <!-- BASE DRIVER -->
-          <div
-            class="text-center text-gray-600 dark:text-gray-900 bg-gray-300 dark:bg-gray-600 p-4 rounded-lg "
+        <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+          <!-- MAX ----------------------------------- -->
+          <button
+            data-modal-target="MaxModal"
+            data-modal-toggle="MaxModal"
+            type="button"
           >
-            <img
-              class="mx-auto mb-4 w-36 h-36 rounded-full border-2 border-red-600"
-              src="./img/max.png"
-              alt="Bonnie Avatar"
-            />
-            <h3
-              class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
             >
-              <a href="#">Maks Verstapens</a>
-            </h3>
-            <p>Red Bull Racing</p>
-            
-<!-- Modal toggle -->
-<div class="flex justify-center m-5">
-  <button id="readProductButton" data-modal-toggle="readProductModal" class="block text-red-600 text-xl bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg  px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" type="button">
-  Uzzināt vairāk
-  </button>
-</div>
-
-<!-- Main modal -->
-<div id="readProductModal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-modal md:h-full">
-  <div class="relative p-4 w-full max-w-xl h-full md:h-auto">
-      <!-- Modal content -->
-      <div class="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
-              <!-- Modal header -->
-              <div class="flex justify-between mb-4 rounded-t sm:mb-5">
-                <img class="h-14 mx-auto object-center"  src="./img/Red-Bull-logo.png" alt="">
-                  <div class="text-lg text-gray-900 md:text-xl dark:text-white mx-auto dark:bg-gray-600 bg-gray-300 rounded-lg p-3">
-                      <h3 class="font-semibold ">
-                          Maks Verstapens
-                      </h3>
-                      <p class="font-bold">
-                          Red Bull Racing
-                      </p>
-                  </div>
-                  
-                  <div>
-                      <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 inline-flex dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="readProductModal">
-                          <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                          <span class="sr-only">Close modal</span>
-                      </button>
-                  </div>
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/max.png"
+                  alt="Max"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Makss Verstapens</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Red Bull Racing</span
+                >
               </div>
-              <dl>
-                  <dt class="mb-2 font-semibold leading-none text-gray-900 dark:text-white">Pamatinformācija</dt>
-                  <dd class="mb-4 font-light text-gray-500 sm:mb-5 dark:text-gray-400">Makss Emilians Verstapens (nīderlandiešu: Max Emilian Verstappen; dzimis 1997. gada 30. septembrī) ir beļģu izcelsmes sacīkšu braucējs, kurš pašlaik startē Formula 1 sacensībās zem Nīderlandes karoga, pārstāvot Red Bull Racing komandu.</dd>
-                  
-              </dl>
+            </div>
+          </button>
+          <!-- CHEKO--------------------------- -->
+          <button
+            data-modal-target="ChecoModal"
+            data-modal-toggle="ChecoModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/sergio.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Serhio Peress</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Red Bull Racing</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- LEC --------------------------- -->
+          <button
+            data-modal-target="LecModal"
+            data-modal-toggle="LecModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/charles.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Šarls Leklērs</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Scuderia Ferrari</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- CARLOS --------------------- -->
+          <button
+            data-modal-target="CarlosModal"
+            data-modal-toggle="CarlosModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/carlos.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Karloss Sainss</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Scuderia Ferrari</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- LEWvis------------------------- -->
+          <button
+            data-modal-target="HamModal"
+            data-modal-toggle="HamModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/lewos.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Luiss Hamiltons</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Mercedes AMG Petronas F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- GEORS ================ -->
+          <button
+            data-modal-target="RusModal"
+            data-modal-toggle="RusModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/george.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Džordžs Rasels</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Mercedes AMG Petronas F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- LANDO =-================ -->
+          <button
+            data-modal-target="LandoModal"
+            data-modal-toggle="LandoModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/lando.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#"> Lando Noriss</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400">McLaren</span>
+              </div>
+            </div>
+          </button>
+          <!-- OSkars ----------------- -->
+          <button
+            data-modal-target="OscarModal"
+            data-modal-toggle="OscarModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/oscar.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Oskars Piastri</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400">McLaren</span>
+              </div>
+            </div>
+          </button>
+          <!-- OCONS ===================== -->
+          <button
+            data-modal-target="OconModal"
+            data-modal-toggle="OconModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/ocon.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Estabans Okons</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Alpine F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- Gasli ------------------------- -->
+          <button
+            data-modal-target="GaslyModal"
+            data-modal-toggle="GaslyModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/pier.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Pjērs Gaslī</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Alpine F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- BOTAS -------------- -->
+          <button
+            data-modal-target="BotasModal"
+            data-modal-toggle="BotasModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/valteri.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Valteri Botas</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Alfa Romeo Sauber</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- ZHO------------------ -->
+          <button
+            data-modal-target="ZhoModal"
+            data-modal-toggle="ZhoModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/zho.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Guaņju Džou</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Alfa Romeo Sauber</span
+                >
+              </div>
+            </div>
+          </button>
+          <!--  Stroolls ------------------->
+          <button
+            data-modal-target="StrollModal"
+            data-modal-toggle="StrollModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/stroll.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Lānss Strols</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Aston Martin Aramco Cognizant F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- ALonso ------------------- -->
+          <button
+            data-modal-target="AlonsoModal"
+            data-modal-toggle="AlonsoModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/alonso.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Fernando Alonso</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Aston Martin Aramco Cognizant F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- YUKI -------------- -->
+          <button
+            data-modal-target="YukiModal"
+            data-modal-toggle="YukiModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/yuki.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Juki Cunoda</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Scuderia AlphaTauri</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- Nick ---------------------- -->
+          <button
+            data-modal-target="NickModal"
+            data-modal-toggle="NickModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/nick.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Niks de Vrīss</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Scuderia AlphaTauri</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- KMAG ---------------- -->
+          <button
+            data-modal-target="KmagModal"
+            data-modal-toggle="KmagModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/kevin.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Kevins Magnusens</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Haas F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- HULk -------------------- -->
+          <button
+            data-modal-target="HulkModal"
+            data-modal-toggle="HulkModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/hulk.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Niko Hulkenbergs</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Haas F1 Team</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- Logan  -->
+          <button
+            data-modal-target="LoganModal"
+            data-modal-toggle="LoganModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/logan.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Logans Seržants</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Williams Racing</span
+                >
+              </div>
+            </div>
+          </button>
+          <!-- Albon ---------------- -->
+          <button
+            data-modal-target="AlbonModal"
+            data-modal-toggle="AlbonModal"
+            type="button"
+          >
+            <div
+              class="items-center bg-gray-300 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700"
+            >
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src="./img/albon.png"
+                  alt="Checo"
+                />
+              </a>
+              <div class="p-5 mx-auto">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+                >
+                  <a href="#">Aleksandrs Albons</a>
+                </h3>
+                <span class="text-gray-500 dark:text-gray-400"
+                  >Williams Racing</span
+                >
+              </div>
+            </div>
+          </button>
+        </div>
       </div>
-  </div>
-</div>
 
+      <!-- VISI DIRVER MODAL -->
+      <!--  -->
+      <!--  -->
+      <!-- MAX MODAL ------------------------ -->
+      <div
+        id="MaxModal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+      >
+        <div class="relative w-full h-full max-w-2xl md:h-auto">
+          <!-- Modal content -->
+          <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div
+              class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+            >
+              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                Terms of Service
+              </h3>
+              <button
+                type="button"
+                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                data-modal-hide="MaxModal"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span class="sr-only">Close modal</span>
+              </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-6 space-y-6">
+              <p
+                class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
+              >
+                With less than a month to go before the European Union enacts
+                new consumer privacy laws for its citizens, companies around the
+                world are updating their terms of service agreements to comply.
+              </p>
+              <p
+                class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
+              >
+                The European Union’s General Data Protection Regulation
+                (G.D.P.R.) goes into effect on May 25 and is meant to ensure a
+                common set of data rights in the European Union. It requires
+                organizations to notify users as soon as possible of high-risk
+                data breaches that could personally affect them.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-                  </div>
-                </div>
-              </div>
-            </d>
+      <!-- CHEMO MODA -->
+      <div
+        id="ChecoModal"
+        tabindex="-1"
+        aria-hidden="true"
+        class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+      >
+        <div class="relative w-full h-full max-w-2xl md:h-auto">
+          <!-- Modal content -->
+          <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div
+              class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+            >
+              <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                Terms of Service
+              </h3>
+              <button
+                type="button"
+                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                data-modal-hide="ChecoModal"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span class="sr-only">Close modal</span>
+              </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-6 space-y-6">
+              <p
+                class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
+              >
+                With less than a month to go before the European Union enacts
+                new consumer privacy laws for its citizens, companies around the
+                world are updating their terms of service agreements to comply.
+              </p>
+              <p
+                class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                nostrum natus, excepturi voluptatibus explicabo sint nihil
+                recusandae quasi ipsum dolores sunt fuga cum, nobis aut libero
+                minus repellat alias, quae illum. Expedita provident illo non
+                officia obcaecati laboriosam, impedit consectetur quidem iste
+                inventore porro? Ipsa temporibus doloremque molestiae animi,
+                voluptates saepe, distinctio facilis nihil nemo corporis
+                delectus. Repellat iure quidem delectus, dolores incidunt
+                aliquam! Reprehenderit magni aut totam itaque eaque magnam,
+                eveniet in quibusdam nobis numquam iure necessitatibus tempore
+                maiores facere laborum voluptas esse, quos dolorem eligendi
+                possimus aliquid quae blanditiis nostrum quas! Delectus
+                voluptates reprehenderit consequatur placeat earum, mollitia ad
+                odit error sequi, soluta fugiat modi nisi, dicta illo neque cum!
+                Explicabo sed voluptatibus ad, assumenda delectus incidunt sequi
+                facere illo similique corporis ea rerum praesentium laudantium.
+                Id voluptates voluptas exercitationem voluptatum deleniti fuga.
+                Labore doloribus aliquid adipisci, veritatis corporis
+                voluptatibus itaque ipsum optio voluptas officiis velit,
+                distinctio officia libero quos incidunt illo! Libero, odio fuga
+                quibusdam laudantium voluptatem ea provident nobis, ut sed eos
+                expedita! Totam vitae animi quod quam, odio, nulla facere quasi
+                voluptates possimus molestiae doloribus cumque excepturi numquam
+                eveniet debitis! Amet autem pariatur nobis quos molestias sequi
+                fugiat eligendi cum cumque! Aspernatur placeat esse quo.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -378,8 +1016,8 @@
         }
       });
     </script>
-    <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
+    <!-- <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script> -->
 
-    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.js"></script>
   </body>
 </html>
